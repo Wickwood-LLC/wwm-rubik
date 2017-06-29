@@ -1,0 +1,1 @@
+!function($){Drupal.behaviors.collapseBlock={attach:function(e,o){$(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),$(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=$(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}}}(jQuery);
