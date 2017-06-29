@@ -102,6 +102,9 @@ body.page-admin .region-footer table {
   background: none;
   border: 0px; }
 
+div.comment, div.node {
+  background: none !important; }
+
 body.tao {
   color: black; }
 
@@ -929,9 +932,7 @@ form .tabs {
   background: #7db9e8;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7db9e8), color-stop(100%, #1e5799));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -960,9 +961,7 @@ form .tabs {
   background: #666666;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #666666), color-stop(100%, #333333));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #666666 0%, #333333 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2647,7 +2646,6 @@ table#field-notes-values {
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes,
 .page-admin-people-create .field-name-field-bwma-programs-enrolled .form-checkboxes {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2; }
 
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper,
@@ -2734,7 +2732,6 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios,
 .page-admin-people-create .field-name-field-group .form-radios {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios,
@@ -2756,7 +2753,6 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-roles .form-checkboxes,
 .page-admin-people-create .form-item-roles .form-checkboxes {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label,
@@ -3940,4 +3936,4 @@ input.form-submit {
   @media (min-width: 1084px) {
     #overlay {
       margin-top: 29px !important; } }
-/*# sourceMappingURL=full_rubik_style.css.map */
+/*# sourceMappingURL=wwm_rubik_style.css.map */

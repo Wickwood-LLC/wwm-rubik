@@ -114,6 +114,9 @@ body.page-admin .region-footer {
   background: none;
   border: 0px;
 }
+div.comment, div.node {
+  background: none !important;
+}
 body.tao {
   color: black;
 }
