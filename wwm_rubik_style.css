@@ -731,18 +731,16 @@ div.panel-pane div.node.boxed {
   padding: 1em;
   margin: 1em 0;
   position: relative; }
-  .boxed h2, .boxed h3,
-  div.panel-pane div.node.boxed h2,
-  div.panel-pane div.node.boxed h3 {
+  .boxed .pane-title,
+  div.panel-pane div.node.boxed .pane-title {
     position: absolute;
     margin: 0;
     top: -11px;
     background: white;
     padding: 0 1em;
     display: inline-block !important; }
-    .boxed h2.ctools-collapsible-handle, .boxed h3.ctools-collapsible-handle,
-    div.panel-pane div.node.boxed h2.ctools-collapsible-handle,
-    div.panel-pane div.node.boxed h3.ctools-collapsible-handle {
+    .boxed .pane-title.ctools-collapsible-handle,
+    div.panel-pane div.node.boxed .pane-title.ctools-collapsible-handle {
       padding-left: 1em; }
   .boxed .ctools-toggle,
   div.panel-pane div.node.boxed .ctools-toggle {
