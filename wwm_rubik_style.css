@@ -181,6 +181,9 @@ input[type="password"] {
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 
+.pane-page-logo img {
+  width: 130px; }
+
 #page-title .page-title {
   font-size: 2em;
   margin: 0; }
