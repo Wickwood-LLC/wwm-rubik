@@ -3622,7 +3622,7 @@ input.form-submit {
         }
 
         &:hover {
-          background: white;
+          background: #f8f8f8;
         }
       }
     }
@@ -3655,6 +3655,10 @@ input.form-submit {
       > a {
         color: white;
         text-shadow: #38a 0px 1px 0px;
+
+        &:hover {
+          background: inherit;
+        }
       }
     }
   }

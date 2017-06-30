@@ -3868,7 +3868,7 @@ input.form-submit {
         display: inline-block;
         margin-left: 0.5em; }
       #block-superfish-1 #superfish-1 li a:hover {
-        background: white; }
+        background: #f8f8f8; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);
             filter: invert(70%); }
@@ -3887,6 +3887,8 @@ input.form-submit {
     #block-superfish-1 #superfish-1 .active-trail > a {
       color: white;
       text-shadow: #38a 0px 1px 0px; }
+      #block-superfish-1 #superfish-1 .active-trail > a:hover {
+        background: inherit; }
 
 #block-superfish-1 #superfish-1-toggle {
   display: block;
