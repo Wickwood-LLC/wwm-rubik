@@ -3840,9 +3840,11 @@ input.form-submit {
 #block-superfish-1 #superfish-1 {
   display: table;
   margin: auto; }
-  #block-superfish-1 #superfish-1 > li:first-child {
+  #block-superfish-1 #superfish-1 > li:first-child,
+  #block-superfish-1 #superfish-1 > li:first-child a {
     border-radius: 5px 0px 0px 5px; }
-  #block-superfish-1 #superfish-1 > li:last-child {
+  #block-superfish-1 #superfish-1 > li:last-child,
+  #block-superfish-1 #superfish-1 > li:last-child a {
     border-radius: 0px 5px 5px 0px; }
   #block-superfish-1 #superfish-1 li {
     border-bottom: 0;
@@ -3859,11 +3861,14 @@ input.form-submit {
       text-align: center;
       padding: 5px 10px;
       font-weight: bold;
-      line-height: 20px; }
+      line-height: 20px;
+      border: 0; }
       #block-superfish-1 #superfish-1 li a > .sf-sub-indicator {
         position: static;
         display: inline-block;
         margin-left: 0.5em; }
+      #block-superfish-1 #superfish-1 li a:hover {
+        background: white; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);
             filter: invert(70%); }

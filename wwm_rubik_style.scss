@@ -3584,10 +3584,12 @@ input.form-submit {
     margin: auto;
 
     >li {
-      &:first-child {
+      &:first-child,
+      &:first-child a {
         border-radius: 5px 0px 0px 5px;
       }
-      &:last-child {
+      &:last-child,
+      &:last-child a {
         border-radius: 0px 5px 5px 0px;
       }
     }
@@ -3611,11 +3613,16 @@ input.form-submit {
         padding: 5px 10px;
         font-weight: bold;
         line-height: 20px;
+        border: 0;
 
         > .sf-sub-indicator {
           position: static;
           display: inline-block;
           margin-left: 0.5em;
+        }
+
+        &:hover {
+          background: white;
         }
       }
     }
