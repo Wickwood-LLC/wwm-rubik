@@ -1260,7 +1260,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
   top: 35%; }
 
 #media-browser-tabset #branding {
-  height: 30px; }
+  height: 30px !important; }
 
 /*********************************************************************/
 /********************/
