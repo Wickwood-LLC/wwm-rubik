@@ -166,7 +166,8 @@ body:not(.maintenance-page) #header {
 
 input[type="password"] {
   width: 100%;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .field > .field-items {
   margin-left: 10px; }
@@ -494,7 +495,8 @@ ul.rules-operations-add a {
   width: 100%;
   border: 1px solid #ddd;
   padding: 5px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -543,10 +545,12 @@ ul.rules-operations-add a {
     font-size: 14px; }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8;
-    box-shadow: none; }
+    -webkit-box-shadow: none;
+            box-shadow: none; }
     @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); } }
+        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-column-inner {
     padding: 0; }
     @media (min-width: 500px) {
@@ -750,7 +754,8 @@ div.panel-pane div.node.boxed {
 
 .my-sticky-element {
   text-align: center;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: initial;
   width: inherit;
   z-index: 100; }
@@ -768,7 +773,8 @@ div.panel-pane div.node.boxed {
     display: inline-block;
     font-size: 13px; }
   .form-item input[type="text"] {
-    box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
 .field-collection-view .entity-field-collection-item {
   display: inline-block;
@@ -835,7 +841,8 @@ table.field-multiple-table tr {
       -webkit-box-ordinal-group: 2;
           -ms-flex-order: 1;
               order: 1;
-      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
       display: block; }
     table.field-multiple-table tr.draggable td:not([class]) {
       -webkit-box-flex: 100%;
@@ -886,7 +893,8 @@ label.panopoly-admin-hide-body-label-processed {
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 5px;
   clear: both; }
   .rubik-inline-field-descriptions .page-content .form-item .description em,
@@ -937,6 +945,7 @@ form .tabs {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#7db9e8), to(#1e5799));
   background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
@@ -966,6 +975,7 @@ form .tabs {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#333333));
   background: linear-gradient(to bottom, #666666 0%, #333333 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333',GradientType=0 );
@@ -1615,14 +1625,17 @@ table.views-table .pane-user-field-identification {
   background: #FFF;
   margin: 40px auto;
   position: relative;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .node-type-press-release.panelized-node .content-main:before, .node-type-press-release.panelized-node .content-main:after {
     content: "";
     position: absolute;
     z-index: -1;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     top: 50%;
     bottom: 0;
     left: 10px;
@@ -1699,7 +1712,8 @@ table.views-table .pane-user-field-identification {
     display: inline-block;
     font-size: 13px; }
   .form-item input[type="text"] {
-    box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
 .form-item.form-type-date-combo {
   margin-bottom: 0; }
@@ -1918,7 +1932,8 @@ table.views-table .pane-user-field-identification {
   padding: 0; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
@@ -2351,13 +2366,13 @@ table#field-notes-values {
 
 .page-user-edit #main-content .field-name-field-name-prefix .form-item,
 .page-user-edit #main-content .field-name-field-first-name .form-item,
-.page-user-edit #main-content .field-name-field-middle-name .form-item,
+.page-user-edit #main-content .field-middle-name-or-initial .form-item,
 .page-user-edit #main-content .field-name-field-last-name .form-item,
 .page-user-edit #main-content .field-name-field-name-suffix .form-item,
 .page-user-edit #main-content .field-name-field-nickname .form-item,
 .page-admin-people-create #main-content .field-name-field-name-prefix .form-item,
 .page-admin-people-create #main-content .field-name-field-first-name .form-item,
-.page-admin-people-create #main-content .field-name-field-middle-name .form-item,
+.page-admin-people-create #main-content .field-middle-name-or-initial .form-item,
 .page-admin-people-create #main-content .field-name-field-last-name .form-item,
 .page-admin-people-create #main-content .field-name-field-name-suffix .form-item,
 .page-admin-people-create #main-content .field-name-field-nickname .form-item {
@@ -2375,13 +2390,13 @@ table#field-notes-values {
 
 .page-user-edit #main-content .field-name-field-name-prefix label,
 .page-user-edit #main-content .field-name-field-first-name label,
-.page-user-edit #main-content .field-name-field-middle-name label,
+.page-user-edit #main-content .field-middle-name-or-initial label,
 .page-user-edit #main-content .field-name-field-last-name label,
 .page-user-edit #main-content .field-name-field-name-suffix label,
 .page-user-edit #main-content .field-name-field-nickname label,
 .page-admin-people-create #main-content .field-name-field-name-prefix label,
 .page-admin-people-create #main-content .field-name-field-first-name label,
-.page-admin-people-create #main-content .field-name-field-middle-name label,
+.page-admin-people-create #main-content .field-middle-name-or-initial label,
 .page-admin-people-create #main-content .field-name-field-last-name label,
 .page-admin-people-create #main-content .field-name-field-name-suffix label,
 .page-admin-people-create #main-content .field-name-field-nickname label {
@@ -2391,13 +2406,13 @@ table#field-notes-values {
 
 .page-user-edit #main-content .field-name-field-name-prefix input,
 .page-user-edit #main-content .field-name-field-first-name input,
-.page-user-edit #main-content .field-name-field-middle-name input,
+.page-user-edit #main-content .field-middle-name-or-initial input,
 .page-user-edit #main-content .field-name-field-last-name input,
 .page-user-edit #main-content .field-name-field-name-suffix input,
 .page-user-edit #main-content .field-name-field-nickname input,
 .page-admin-people-create #main-content .field-name-field-name-prefix input,
 .page-admin-people-create #main-content .field-name-field-first-name input,
-.page-admin-people-create #main-content .field-name-field-middle-name input,
+.page-admin-people-create #main-content .field-middle-name-or-initial input,
 .page-admin-people-create #main-content .field-name-field-last-name input,
 .page-admin-people-create #main-content .field-name-field-name-suffix input,
 .page-admin-people-create #main-content .field-name-field-nickname input {
@@ -2688,7 +2703,8 @@ table#field-notes-values {
 .page-user-edit .field-name-field-address label,
 .page-admin-people-create .field-name-field-address label {
   width: 70px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-user-edit .field-name-field-address select.state,
 .page-admin-people-create .field-name-field-address select.state {
@@ -2698,7 +2714,8 @@ table#field-notes-values {
 .page-admin-people-create .pane-user-field-related-clients .pane-content {
   border: 1px solid #CCCCCC;
   padding: 10px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-user-edit .field-name-field-related-clients .views-exposed-form,
 .page-admin-people-create .field-name-field-related-clients .views-exposed-form {
@@ -3273,7 +3290,8 @@ td:not([class]) {
   width: calc(100% - 140px); }
 
 .page-admin-field-edit-profile2-field-loans .ief-form * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
@@ -3822,7 +3840,8 @@ input.form-submit {
 
 .views-exposed-form .reset-link-button {
   background-image: url(/sites/all/themes/rubik/images/buttons.png) !important;
-  box-shadow: #ddd 0 1px 1px;
+  -webkit-box-shadow: #ddd 0 1px 1px;
+          box-shadow: #ddd 0 1px 1px;
   cursor: pointer;
   padding: 3px 10px;
   color: #333;
