@@ -2366,13 +2366,13 @@ table#field-notes-values {
 
 .page-user-edit #main-content .field-name-field-name-prefix .form-item,
 .page-user-edit #main-content .field-name-field-first-name .form-item,
-.page-user-edit #main-content .field-middle-name-or-initial .form-item,
+.page-user-edit #main-content .field-name-field-middle-name-or-initial .form-item,
 .page-user-edit #main-content .field-name-field-last-name .form-item,
 .page-user-edit #main-content .field-name-field-name-suffix .form-item,
 .page-user-edit #main-content .field-name-field-nickname .form-item,
 .page-admin-people-create #main-content .field-name-field-name-prefix .form-item,
 .page-admin-people-create #main-content .field-name-field-first-name .form-item,
-.page-admin-people-create #main-content .field-middle-name-or-initial .form-item,
+.page-admin-people-create #main-content .field-name-field-middle-name-or-initial .form-item,
 .page-admin-people-create #main-content .field-name-field-last-name .form-item,
 .page-admin-people-create #main-content .field-name-field-name-suffix .form-item,
 .page-admin-people-create #main-content .field-name-field-nickname .form-item {
@@ -2390,13 +2390,13 @@ table#field-notes-values {
 
 .page-user-edit #main-content .field-name-field-name-prefix label,
 .page-user-edit #main-content .field-name-field-first-name label,
-.page-user-edit #main-content .field-middle-name-or-initial label,
+.page-user-edit #main-content .field-name-field-middle-name-or-initial label,
 .page-user-edit #main-content .field-name-field-last-name label,
 .page-user-edit #main-content .field-name-field-name-suffix label,
 .page-user-edit #main-content .field-name-field-nickname label,
 .page-admin-people-create #main-content .field-name-field-name-prefix label,
 .page-admin-people-create #main-content .field-name-field-first-name label,
-.page-admin-people-create #main-content .field-middle-name-or-initial label,
+.page-admin-people-create #main-content .field-name-field-middle-name-or-initial label,
 .page-admin-people-create #main-content .field-name-field-last-name label,
 .page-admin-people-create #main-content .field-name-field-name-suffix label,
 .page-admin-people-create #main-content .field-name-field-nickname label {
@@ -2406,13 +2406,13 @@ table#field-notes-values {
 
 .page-user-edit #main-content .field-name-field-name-prefix input,
 .page-user-edit #main-content .field-name-field-first-name input,
-.page-user-edit #main-content .field-middle-name-or-initial input,
+.page-user-edit #main-content .field-name-field-middle-name-or-initial input,
 .page-user-edit #main-content .field-name-field-last-name input,
 .page-user-edit #main-content .field-name-field-name-suffix input,
 .page-user-edit #main-content .field-name-field-nickname input,
 .page-admin-people-create #main-content .field-name-field-name-prefix input,
 .page-admin-people-create #main-content .field-name-field-first-name input,
-.page-admin-people-create #main-content .field-middle-name-or-initial input,
+.page-admin-people-create #main-content .field-name-field-middle-name-or-initial input,
 .page-admin-people-create #main-content .field-name-field-last-name input,
 .page-admin-people-create #main-content .field-name-field-name-suffix input,
 .page-admin-people-create #main-content .field-name-field-nickname input {
