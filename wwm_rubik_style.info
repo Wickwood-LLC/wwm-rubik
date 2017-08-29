@@ -1,5 +1,5 @@
 name = WWM Rubik
-description = Rubik subtheme for use in WWM Templates.
+description = A subtheme of Full Rubik for use in WWM Templates.
 base theme = full_rubik
 core = 7.x
 
