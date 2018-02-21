@@ -3598,13 +3598,14 @@ td:not([class]) {
         width: 100%;
         flex-flow: row wrap;
         height: 100%;
+        box-sizing: content-box;
 
         @include breakpoint(944px) {
           display: block;
         }
   
         .views-row {
-          width: calc((100% / 3) - 21px);
+          width: calc((100% / 3) - 42px);
           flex: 1 100%;
           padding: 0.5em;
           margin: 0.5em;
