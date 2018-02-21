@@ -242,6 +242,7 @@ div#toolbar div.toolbar-shortcuts ul {
     .view-content {
       display: flex;
       flex-flow: row wrap;
+      overflow: auto;
     }
 
     .views-row {

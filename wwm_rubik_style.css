@@ -202,7 +202,8 @@ div#toolbar div.toolbar-shortcuts ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
+            flex-flow: row wrap;
+    overflow: auto; }
   .content-main .featured-display .views-row {
     display: block;
     margin-top: 0px;
