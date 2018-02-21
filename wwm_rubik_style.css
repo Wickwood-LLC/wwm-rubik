@@ -3878,7 +3878,7 @@ td:not([class]) {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
           display: block; } }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
-        width: calc((100% / 3) - 42px);
+        width: calc((100% / 3) - 21px);
         -webkit-box-flex: 1;
             -ms-flex: 1 100%;
                 flex: 1 100%;
