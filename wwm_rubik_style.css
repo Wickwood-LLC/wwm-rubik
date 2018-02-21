@@ -53,6 +53,10 @@ h5, h6, b,
 strong {
   font-weight: bolder; }
 
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: bolder;
+  line-height: 1.2; }
+
 ins {
   text-decoration: underline; }
 
@@ -3904,7 +3908,10 @@ td:not([class]) {
         @media (min-width: 944px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
             min-width: 0; } }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p {
           text-align: center; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
           width: 100%;

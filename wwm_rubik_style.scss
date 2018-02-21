@@ -58,6 +58,10 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6, b,
 strong          { font-weight: bolder }
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: bolder;
+    line-height: 1.2;
+}
 ins { 
   text-decoration: underline;
 }
@@ -3624,7 +3628,10 @@ td:not([class]) {
             min-width: 0;
           }
 
-          .views-field-title-field, .views-field-title-field p {
+          .views-field-title-field,
+          .views-field-title-field p,
+          .views-field-title,
+          .views-field-title p {
             text-align: center;
           }
 
