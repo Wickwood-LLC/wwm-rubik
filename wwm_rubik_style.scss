@@ -3441,9 +3441,106 @@ td:not([class]) {
 .blog-type-page {
   h1.page-title {
     width: 100%;
-      text-align: center;
-      margin-bottom: 0;
-      display: block;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+  }
+
+  .pane-card-cycles-card-blog {
+    width: 100%;
+  }
+
+  .pane-card-cycles-card-blog .view-content {
+    display: flex;
+    flex-flow: row wrap;
+
+    .views-slideshow-cycle-processed {
+      width: 100%;
+    }
+
+    .views-slideshow-cycle-main-frame-row {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    .views-row {
+      flex: 1 30%;
+      margin: 0.5em;
+      padding: 0;
+
+      @include breakpoint(375px) {
+        min-width: 300px;
+        flex: 1 1 300px;
+      }
+
+      .panel-display {
+        padding: 0;
+      }
+      .panel-flexible {
+        padding: 1em;
+      }
+
+      h2 {
+        margin: 0.5em 0 0 0;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 0 0.5em 0;
+        text-align: center;
+      }
+
+      .col-1, .col-2 {
+        width: 100%;
+      }
+      .col-1 {
+        padding: 1em;
+        text-align: center;
+      }
+      .col-2 {
+        padding: 0 1em 1em 1em;
+      }
+
+      .pane-node-field-card-image {
+        text-align: center;
+      }
+
+      .field--name-field-amazon-book-listing {
+        text-align: center;
+      }
+
+      .pane-node-field-call-to-action {
+        text-align: center;
+      }
+    }     
+  }
+  .pane-card-cycles-card-slideshow,
+  .pane-card-cycles-card-slideshow-clone, {
+    position: relative;
+
+    .col-1 {
+      width: 100%;
+    }
+  }
+
+  .field-name-field-call-to-action {
+    background-color: #77BBCD;
+    border-color: #73b5c5;
+    color: white;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: #ddd 0 1px 1px;
+    margin-top: 1em;
+
+    a {
+      color: white;
+    }
   }
 
   .views-exposed-form {
@@ -3469,11 +3566,21 @@ td:not([class]) {
     }
   }
   
+  #main-content {
+    @include breakpoint(0px 667px) {
+      margin: 0;
+    }
+  }
+
   #main-content .panel-myriad-layout {
     display: flex;
     flex-flow: row wrap;
     padding: 1em;
     padding-top: 0px;
+
+    > div {
+      flex: 100%;
+    }
 
     .views-exposed-widgets {
       .views-reset-button {
@@ -3509,17 +3616,24 @@ td:not([class]) {
     .main-content {
       width: 100%;
       flex: 1 100%;
-      padding: 0.5em;
+      padding: 0.5rem;
+      padding-top: 0;
 
       @include breakpoint(626px) {
-        min-width: 560px;
         flex: 3 0 560px;
+        max-width: 100%;
+        margin-bottom: 0.5em;
+        padding-top: 0;
+      }
+      @include breakpoint(791px) {
+        padding: 0.5rem 0;
+        padding-top: 0;
       }
     }
 
     .sidebar-content {
       flex: 1 1 0;
-      margin: 0.5em;
+      margin: 0.5rem;
       min-width: 0;
       max-width: 100%;
       float: right;
@@ -3529,13 +3643,19 @@ td:not([class]) {
 
       @include breakpoint(375px) {
         min-width: 300px;
-        flex: 1 1 250px;
+        flex: 100%;
       }
       @include breakpoint(944px) {
         min-width: 0;
       }
 
-      .pane-articles-test-panel-pane-7 {
+      .pane-articles-test-panel-pane-7,
+      .pane-news-test-panel-pane-3,
+      .pane-press-releases-test-panel-pane-3,
+      .pane-articles-test-panel-pane-2,
+      .pane-news-test-panel-pane-2,
+      .pane-press-releases-test-panel-pane-2,
+      .pane-panopoly-faq-panel-pane-3 {
         .view-content {
           column-width: 150px;
         }
@@ -3594,15 +3714,16 @@ td:not([class]) {
       height: auto;
     }
 
-    .featured-display {
+    .featured-display,
+    .main-display {
       height: 100%;
 
-      .view-content {
+      .view-content,
+      .pane-content {
         display: flex;
         width: 100%;
         flex-flow: row wrap;
         height: 100%;
-        box-sizing: content-box;
 
         @include breakpoint(944px) {
           display: block;
@@ -3612,12 +3733,14 @@ td:not([class]) {
           width: calc((100% / 3) - 42px);
           flex: 1 100%;
           padding: 0.5em;
-          margin: 0.5em;
+          margin: 0.5rem;
           border: 1px solid #cccccc;
           font-size: 14px;
-          display: inline-block;
+          display: inline-flex;
           flex-flow: column nowrap;
           vertical-align: top;
+          box-sizing: content-box;
+          position: relative;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
@@ -3628,11 +3751,24 @@ td:not([class]) {
             min-width: 0;
           }
 
-          .views-field-title-field,
-          .views-field-title-field p,
           .views-field-title,
-          .views-field-title p {
+          .views-field-title-field {
             text-align: center;
+
+            a > * {
+              display: inline;
+              font-size: inherit;
+            }
+          }
+
+          .views-field-field-featured-image {
+            text-align: center;
+            margin-bottom: 1em;
+            margin-top: 1em;
+
+            img {
+              height: auto;
+            }
           }
 
           .featured-image img {
@@ -3648,8 +3784,8 @@ td:not([class]) {
               max-width: 100%;
             }
 
-            .field-content {
-              overflow: auto;
+            p {
+              margin-bottom: 1em;
             }
           }
         }
@@ -3671,75 +3807,16 @@ td:not([class]) {
           display: block;
           height: auto;
           margin: auto;
+          margin-bottom: 1em;
         }
       }
     }
 
-    .pane-card-cycles-card-blog .view-content {
-      display: flex;
-      flex-flow: row wrap;
+    .featured-display .pane-content .views-row {
+      margin: 0.5rem 0;
 
-      .views-slideshow-cycle-main-frame-row {
-        display: flex;
-        flex-flow: row wrap;
-      }
-
-      .views-row {
-        flex: 1 30%;
-        margin: 0.5em;
-        padding: 0;
-
-        @include breakpoint(375px) {
-          min-width: 300px;
-          flex: 1 1 300px;
-        }
-
-        .panel-display {
-          padding: 0;
-        }
-        .panel-flexible {
-          padding: 1em;
-        }
-
-        h2 {
-          margin: 0.5em 0 0 0;
-          text-align: center;
-        }
-        h3 {
-          margin: 0 0 0.5em 0;
-          text-align: center;
-        }
-
-        .col-1, .col-2 {
-          width: 100%;
-        }
-        .col-1 {
-          padding: 1em;
-          text-align: center;
-        }
-        .col-2 {
-          padding: 0 1em 1em 1em;
-        }
-
-        .pane-node-field-card-image {
-          text-align: center;
-        }
-
-        .field--name-field-amazon-book-listing {
-          text-align: center;
-        }
-
-        .pane-node-field-call-to-action {
-          text-align: center;
-        }
-      }     
-    }
-
-    .pane-card-cycles-card-slideshow {
-      position: relative;
-
-      .col-1 {
-        width: 100%;
+      @include breakpoint(771px) {
+        margin: 0.5rem;
       }
     }
 
@@ -3766,13 +3843,19 @@ td:not([class]) {
         }
 
         .views-field-field-featured-image,
+        .views-field-title,
         .views-field-title-field, 
+        views-field-title p,
         .views-field-title-field p {
           text-align: center;
           
           h3 {
             margin-bottom: 0;
           }
+        }
+        .views-field-title,
+        .views-field-title-field p {
+          display: inline;
         }
         .views-field-name,
         .views-field-published-at {
@@ -3789,8 +3872,7 @@ td:not([class]) {
           }
 
           iframe {
-            width: 100%;
-            height: auto;
+            max-width: 100%;
           }
         }
         .views-field-field-categories {
@@ -3809,9 +3891,9 @@ td:not([class]) {
     }
 
     .views-field-view-node a {
-        float: right;
-        text-transform: capitalize;
-        color: #EA4335;
+      float: right;
+      text-transform: capitalize;
+      color: #EA4335;
       font-weight: bold;
 
       &:hover {
@@ -3823,10 +3905,16 @@ td:not([class]) {
     }
   }
 
+  .views-field-title p,
   .views-field-title-field p,
+  .views-field-title h2,
   .views-field-title-field h2 {
     text-align: center;
     margin: 0;
+  }
+  .views-field-title p,
+  .views-field-title-field p {
+    display: inline;
   }
   .views-field-field-categories {
     font-weight: bold;
@@ -3842,7 +3930,14 @@ td:not([class]) {
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {
-  .field-name-field-featured-image {
+  .field-name-title-field {
+    text-align: center;
+
+    h1 {
+      margin-top: 0;
+    }
+  }
+  .field.field-name-field-featured-image {
     width: 100%;
 
       @include breakpoint(481px) {
@@ -3858,6 +3953,9 @@ td:not([class]) {
         width: 100%;
       }
   }
+  .field.field-name-body .field-items {
+    margin: 0;
+  }
   .field-name-field-categories {
     margin-top: 1em;
     font-weight: bold;
@@ -3871,7 +3969,7 @@ td:not([class]) {
 
   .radix-layouts-content {
     flex: 1 100%;
-    padding-right: 0;
+    padding: 0;
 
     @include breakpoint(848px) {
       flex: 3 0 560px;
@@ -3883,15 +3981,23 @@ td:not([class]) {
   .radix-layouts-sidebar {
     flex: 1 300px;
     min-width: 300px;
-    padding-left: 0;
+    padding: 0;
 
     @include breakpoint(848px) {
       flex: 1 1 250px;
       padding: 0.5em;
     }
 
+    > div:first-child {
+      margin-top: 1em;
+    }
+
     .boxed {
       padding-top: 2em;
+    }
+
+    .field-name-field-categories {
+      margin-top: 0;
     }
   }
 }
@@ -3914,9 +4020,13 @@ td:not([class]) {
     div:first-child .panel-pane {
       margin-top: 0;
     }
+
+    .boxed {
+      padding-top: 2em;
+    }
   }
 
-  h1.pane-node-title-field {
+  .pane-node-title-field h1 {
     text-align: center;
   }
   
@@ -3990,7 +4100,6 @@ td:not([class]) {
 
   .field-name-field-categories {
     font-weight: bold;
-    text-align: center;
 
     .field__label, .field__items {
       display: inline-block;
