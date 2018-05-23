@@ -2081,10 +2081,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 500382347,
-	"displayValue": "full_rubik",
+	"displayValue": "wwm-rubik",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-doge",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "meme-fry",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
