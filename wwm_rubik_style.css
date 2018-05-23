@@ -4598,6 +4598,11 @@ input.form-submit {
   #block-superfish-1 #superfish-1-accordion li a {
     color: #00728e; }
 
+.pane-card-cycles-card-slideshow-clone {
+  width: 100%;
+  max-width: 350px;
+  margin: auto; }
+
 .view-card-cycles .vscc-controls {
   text-align: center; }
 
@@ -4626,6 +4631,18 @@ input.form-submit {
 .view-card-cycles .field-name-field-amazon-book-listing img {
   width: 150px;
   height: auto; }
+
+.field-video .field-items,
+.field-name-field-video .field-items,
+.media-element-container .field-items {
+  margin: 0; }
+
+.field-video iframe,
+.field-name-field-video iframe,
+.media-element-container iframe {
+  max-width: 100%;
+  margin: auto;
+  display: block; }
 
 #overlay {
   padding: 3em 40px; }

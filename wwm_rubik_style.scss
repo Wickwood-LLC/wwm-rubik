@@ -4363,6 +4363,12 @@ input.form-submit {
   }
 }
 
+.pane-card-cycles-card-slideshow-clone {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+
 .view-card-cycles {
   .vscc-controls {
     text-align: center;
@@ -4397,6 +4403,19 @@ input.form-submit {
   .field-name-field-amazon-book-listing img {
     width: 150px;
     height: auto;
+  }
+}
+
+.field-video,
+.field-name-field-video,
+.media-element-container {
+  .field-items {
+    margin: 0;
+  }
+  iframe {
+    max-width: 100%;
+    margin: auto;
+    display: block;
   }
 }
 
