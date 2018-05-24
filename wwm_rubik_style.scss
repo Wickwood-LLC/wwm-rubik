@@ -3559,7 +3559,6 @@ td:not([class]) {
 
       .form-submit {
         margin-top: 0;
-        position: absolute;
         top: 18px;
         right: 10px;
       }
@@ -4439,5 +4438,94 @@ input.form-submit {
   }
   @include breakpoint(1084px) {
     margin-top: 29px !important;
+  }
+}
+
+.page-categories {
+  @include breakpoint(944px) {
+    .col-md-8 {
+      width: 66.66666666666666%;
+      width: calc((100% / 3) * 2);
+      float: left;
+    }
+    .col-md-4 {
+      width: 33.33333333333333%;
+      width: calc(100% / 3);
+      float: left;
+    }
+  }
+
+  .pane-views-exp-categories-panel-pane-2 {
+    .actions {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+
+  .pane-categories-panel-pane-2 {
+    .view-content {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: stretch;
+      justify-content: center;
+    }
+    .views-row {
+      flex: 1 1 150px;
+      margin: 0.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+.view-empty,
+.pane-views-empty {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+  @include breakpoint(944px) {
+    margin-top: 0.5rem;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    clear: both;
+    border: 1px solid #CCCCCC;
+    padding: 1em;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+#views-exposed-form-panopoly-taxonomy-panel-pane-3 {
+  .views-widget-filter-type {
+    flex: 100%;
+
+    .views-widget {
+      display: inline-block;
+    }
+    .form-item.form-type-bef-checkbox {
+        display: inline-block;
+        width: auto;
+        margin-right: 1em;
+    }
+  }
+
+  .actions {
+    flex: 1;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    .views-exposed-widget .form-submit {
+      position: static;
+    }
   }
 }

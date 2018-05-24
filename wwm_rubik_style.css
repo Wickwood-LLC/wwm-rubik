@@ -3845,7 +3845,6 @@ td:not([class]) {
     max-width: 100%; }
   .blog-type-page .views-exposed-form .views-exposed-widget .form-submit {
     margin-top: 0;
-    position: absolute;
     top: 18px;
     right: 10px; }
 
@@ -4664,4 +4663,98 @@ input.form-submit {
   @media (min-width: 1084px) {
     #overlay {
       margin-top: 29px !important; } }
+
+@media (min-width: 944px) {
+  .page-categories .col-md-8 {
+    width: 66.66666666666666%;
+    width: calc((100% / 3) * 2);
+    float: left; }
+  .page-categories .col-md-4 {
+    width: 33.33333333333333%;
+    width: calc(100% / 3);
+    float: left; } }
+
+.page-categories .pane-views-exp-categories-panel-pane-2 .actions {
+  position: absolute;
+  right: 10px;
+  bottom: 10px; }
+
+.page-categories .pane-categories-panel-pane-2 .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-categories .pane-categories-panel-pane-2 .views-row {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
+  margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+
+.view-empty,
+.pane-views-empty {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+  @media (min-width: 944px) {
+    .view-empty,
+    .pane-views-empty {
+      margin-top: 0.5rem; } }
+  .view-empty p,
+  .pane-views-empty p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    clear: both;
+    border: 1px solid #CCCCCC;
+    padding: 1em;
+    display: inline-block;
+    width: 100%; }
+
+#views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
+  #views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type .views-widget {
+    display: inline-block; }
+  #views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type .form-item.form-type-bef-checkbox {
+    display: inline-block;
+    width: auto;
+    margin-right: 1em; }
+
+#views-exposed-form-panopoly-taxonomy-panel-pane-3 .actions {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  #views-exposed-form-panopoly-taxonomy-panel-pane-3 .actions .views-exposed-widget .form-submit {
+    position: static; }
 /*# sourceMappingURL=wwm_rubik_style.css.map */
