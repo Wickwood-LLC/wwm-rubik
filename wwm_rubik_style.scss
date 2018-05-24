@@ -4442,6 +4442,14 @@ input.form-submit {
 }
 
 .page-categories {
+  .view-filters {
+    width: 100%;
+
+    form {
+      display: table;
+      margin: auto;
+    }
+  }
   @include breakpoint(944px) {
     .col-md-8 {
       width: 66.66666666666666%;
