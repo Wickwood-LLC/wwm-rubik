@@ -3924,6 +3924,59 @@ td:not([class]) {
     float: left;
     margin-right: 4px;
   }
+
+  &.page-categories {
+    .view-filters {
+      width: 100%;
+
+      form {
+        display: table;
+        margin: auto;
+      }
+    }
+    @include breakpoint(944px) {
+      .col-md-8 {
+        width: 66.66666666666666%;
+        width: calc((100% / 3) * 2);
+        float: left;
+      }
+      .col-md-4 {
+        width: 33.33333333333333%;
+        width: calc(100% / 3);
+        float: left;
+      }
+    }
+
+    .views-field-name,
+    .views-field-name .field-content {
+      margin: 0;
+    }
+
+    .pane-views-exp-categories-panel-pane-2 {
+      .actions {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+      }
+    }
+
+    .pane-categories-panel-pane-2 {
+      .view-content {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: center;
+      }
+      .views-row {
+        flex: 1 1 150px;
+        margin: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
 }
 
 .node-type-article-post,
@@ -4438,59 +4491,6 @@ input.form-submit {
   }
   @include breakpoint(1084px) {
     margin-top: 29px !important;
-  }
-}
-
-.page-categories {
-  .view-filters {
-    width: 100%;
-
-    form {
-      display: table;
-      margin: auto;
-    }
-  }
-  @include breakpoint(944px) {
-    .col-md-8 {
-      width: 66.66666666666666%;
-      width: calc((100% / 3) * 2);
-      float: left;
-    }
-    .col-md-4 {
-      width: 33.33333333333333%;
-      width: calc(100% / 3);
-      float: left;
-    }
-  }
-
-  .views-field-name,
-  .views-field-name .field-content {
-    margin: 0;
-  }
-
-  .pane-views-exp-categories-panel-pane-2 {
-    .actions {
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-    }
-  }
-
-  .pane-categories-panel-pane-2 {
-    .view-content {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: center;
-    }
-    .views-row {
-      flex: 1 1 150px;
-      margin: 0.5em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
   }
 }
 
