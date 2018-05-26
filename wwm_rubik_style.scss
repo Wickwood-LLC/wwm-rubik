@@ -4463,6 +4463,11 @@ input.form-submit {
     }
   }
 
+  .views-field-name,
+  .views-field-name .field-content {
+    margin: 0;
+  }
+
   .pane-views-exp-categories-panel-pane-2 {
     .actions {
       position: absolute;

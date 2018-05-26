@@ -4680,6 +4680,10 @@ input.form-submit {
     width: calc(100% / 3);
     float: left; } }
 
+.page-categories .views-field-name,
+.page-categories .views-field-name .field-content {
+  margin: 0; }
+
 .page-categories .pane-views-exp-categories-panel-pane-2 .actions {
   position: absolute;
   right: 10px;
