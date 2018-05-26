@@ -3925,7 +3925,7 @@ td:not([class]) {
     margin-right: 4px;
   }
 
-  &.page-categories {
+  &.page-categories #main-content .panel-myriad-layout {
     .view-filters {
       width: 100%;
 
@@ -3947,9 +3947,11 @@ td:not([class]) {
       }
     }
 
-    .views-field-name,
-    .views-field-name .field-content {
-      margin: 0;
+    .main-display .view-content{
+      .views-field-name,
+      .views-field-name .field-content {
+        margin: 0;
+      }
     }
 
     .pane-views-exp-categories-panel-pane-2 {
