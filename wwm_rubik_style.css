@@ -198,14 +198,14 @@ div#toolbar div.toolbar-shortcuts ul {
   #console .messages {
     margin: 0; }
 
-#page-title {
+div#page-title {
   background: none;
   font-weight: bold; }
-  #page-title .limiter {
+  div#page-title .limiter {
     width: auto;
     margin: auto;
     display: table; }
-  #page-title h1.page-title {
+  div#page-title h1.page-title {
     font-size: 2em;
     width: auto;
     padding: 0;
