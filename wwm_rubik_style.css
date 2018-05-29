@@ -193,6 +193,11 @@ div#toolbar div.toolbar-shortcuts ul {
   font-size: 2em;
   margin: 0; }
 
+#console {
+  margin-top: 10px; }
+  #console .messages {
+    margin: 0; }
+
 #page-title {
   background: none;
   font-weight: bold; }

@@ -233,6 +233,14 @@ div#toolbar div.toolbar-shortcuts ul {
   margin: 0;
 }
 
+#console {
+  margin-top: 10px;
+
+  .messages {
+    margin: 0;
+  }
+}
+
 #page-title {
   background: none;
   font-weight: bold;
