@@ -3959,9 +3959,9 @@ td:not([class]) {
       padding: 3px 4px;
       border-radius: 5px;
       width: auto; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
-  .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
-  .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6,
+  .blog-type-page #main-content .panel-myriad-layout .pane-articles2-panel-pane-6,
+  .blog-type-page #main-content .panel-myriad-layout .pane-news2-panel-pane-6,
+  .blog-type-page #main-content .panel-myriad-layout .pane-press-releases2-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-panopoly-faq-panel-pane-4 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -4488,9 +4488,9 @@ td:not([class]) {
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
 
-.pane-news-test-panel-pane-5 .view-content,
-.pane-articles-test-panel-pane-5 .view-content,
-.pane-press-releases-test-panel-pane-5 .view-content {
+.pane-news2-panel-pane-5 .view-content,
+.pane-articles2-panel-pane-5 .view-content,
+.pane-press-releases2-panel-pane-5 .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4499,9 +4499,9 @@ td:not([class]) {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
 
-.pane-news-test-panel-pane-5 .views-row,
-.pane-articles-test-panel-pane-5 .views-row,
-.pane-press-releases-test-panel-pane-5 .views-row {
+.pane-news2-panel-pane-5 .views-row,
+.pane-articles2-panel-pane-5 .views-row,
+.pane-press-releases2-panel-pane-5 .views-row {
   display: inline-block;
   vertical-align: top;
   width: 230px;
@@ -4511,15 +4511,15 @@ td:not([class]) {
       -ms-flex: 1 240px;
           flex: 1 240px; }
 
-.pane-news-test-panel-pane-5 .views-field-field-featured-image,
-.pane-articles-test-panel-pane-5 .views-field-field-featured-image,
-.pane-press-releases-test-panel-pane-5 .views-field-field-featured-image {
+.pane-news2-panel-pane-5 .views-field-field-featured-image,
+.pane-articles2-panel-pane-5 .views-field-field-featured-image,
+.pane-press-releases2-panel-pane-5 .views-field-field-featured-image {
   float: left;
   margin-right: 10px; }
 
-.pane-news-test-panel-pane-5 .views-field-published-at,
-.pane-articles-test-panel-pane-5 .views-field-published-at,
-.pane-press-releases-test-panel-pane-5 .views-field-published-at {
+.pane-news2-panel-pane-5 .views-field-published-at,
+.pane-articles2-panel-pane-5 .views-field-published-at,
+.pane-press-releases2-panel-pane-5 .views-field-published-at {
   font-size: 0.8em; }
 
 #page .pane-content-area.boxed {
