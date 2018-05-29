@@ -233,6 +233,64 @@ div#toolbar div.toolbar-shortcuts ul {
   margin: 0;
 }
 
+#page-title {
+  background: none;
+  font-weight: bold;
+
+  .limiter {
+    width: auto;
+    margin: auto;
+    display: table;
+  }
+
+  h1.page-title {
+    font-size: 2em;
+    width: auto;
+    padding: 0;
+    padding-top: 15px;
+    font-weight: bold;
+    min-height: auto;
+  }
+}
+
+.tools {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  @include breakpoint(800px) {
+    display: block;
+  }
+
+  .links-and-shortcuts {
+    margin-top: 6px;
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  .tabs {
+    margin: 1em 10px 0;
+
+    @include breakpoint(800px) {
+      margin-top: 0;
+    }
+  }
+  .primary-tabs {
+    margin: 0;
+  }
+
+  .action-links {
+    padding: 0;
+  }
+
+  .add-or-remove-shortcuts {
+    padding: 0;
+  }
+  .add-or-remove-shortcuts a span.text {
+    display: block;
+  }
+}
+
 .content-main  {
   .featured-display {
     overflow: auto;
