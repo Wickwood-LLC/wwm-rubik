@@ -3887,19 +3887,6 @@ td:not([class]) {
   .blog-type-page .field-name-field-call-to-action a {
     color: white; }
 
-.blog-type-page .views-exposed-form .views-exposed-widget {
-  display: inline-block;
-  float: none;
-  min-width: 0;
-  max-width: 100%; }
-  .blog-type-page .views-exposed-form .views-exposed-widget .form-item input, .blog-type-page .views-exposed-form .views-exposed-widget .form-item select {
-    min-width: 0;
-    max-width: 100%; }
-  .blog-type-page .views-exposed-form .views-exposed-widget .form-submit {
-    margin-top: 0;
-    top: 18px;
-    right: 10px; }
-
 @media (min-width: 0px) and (max-width: 667px) {
   .blog-type-page #main-content {
     margin: 0; } }
@@ -4839,4 +4826,23 @@ input.form-submit {
           justify-content: flex-end; }
   #views-exposed-form-panopoly-taxonomy-panel-pane-3 .actions .views-exposed-widget .form-submit {
     position: static; }
+
+.views-exposed-form .views-exposed-widget {
+  display: inline-block;
+  float: none;
+  min-width: 0;
+  max-width: 100%; }
+  .views-exposed-form .views-exposed-widget .form-item input, .views-exposed-form .views-exposed-widget .form-item select {
+    min-width: 0;
+    max-width: 100%; }
+  .views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0px;
+    right: 10px; }
+
+.views-exposed-form #edit-type-wrapper .form-type-bef-checkbox {
+  display: inline-block;
+  width: auto;
+  margin-right: 0.5em; }
 /*# sourceMappingURL=wwm_rubik_style.css.map */

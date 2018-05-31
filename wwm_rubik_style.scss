@@ -3608,28 +3608,6 @@ td:not([class]) {
       color: white;
     }
   }
-
-  .views-exposed-form {
-    .views-exposed-widget {
-      display: inline-block;
-      float: none;
-      min-width: 0;
-      max-width: 100%;
-
-      .form-item {
-        input, select {
-          min-width: 0;
-          max-width: 100%;
-        }
-      }
-
-      .form-submit {
-        margin-top: 0;
-        top: 18px;
-        right: 10px;
-      }
-    }
-  }
   
   #main-content {
     @include breakpoint(0px 667px) {
@@ -4620,6 +4598,37 @@ input.form-submit {
 
     .views-exposed-widget .form-submit {
       position: static;
+    }
+  }
+}
+
+.views-exposed-form {
+  .views-exposed-widget {
+    display: inline-block;
+    float: none;
+    min-width: 0;
+    max-width: 100%;
+
+    .form-item {
+      input, select {
+        min-width: 0;
+        max-width: 100%;
+      }
+    }
+
+    .form-submit {
+      margin-top: 0;
+      position: absolute;
+      bottom: 0px;
+      right: 10px;
+    }
+  }
+
+  #edit-type-wrapper {
+    .form-type-bef-checkbox {
+      display: inline-block;
+      width: auto;
+      margin-right: 0.5em;
     }
   }
 }
