@@ -4363,7 +4363,8 @@ td:not([class]) {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  padding: 0 1em; }
+  padding: 0 1em;
+  width: 100%; }
 
 .node-type-article-post .radix-layouts-content,
 .node-type-panopoly-news-article .radix-layouts-content,
