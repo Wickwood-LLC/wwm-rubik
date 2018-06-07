@@ -1156,8 +1156,13 @@ ul#views-display-menu-tabs {
   float: left;
 }
 
-#node-edit .form-item-path-alias input {
-  width: auto;
+#node-edit .form-item-path-alias {
+  * {
+    float: none;
+  }
+  input {
+    width: auto;
+  }
 }
 
 .pane-node-form-path .pane-content {

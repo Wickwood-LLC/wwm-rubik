@@ -928,6 +928,9 @@ ul#views-display-menu-tabs {
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
+#node-edit .form-item-path-alias * {
+  float: none; }
+
 #node-edit .form-item-path-alias input {
   width: auto; }
 
