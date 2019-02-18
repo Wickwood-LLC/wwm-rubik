@@ -1221,6 +1221,9 @@ label[for="edit-pubdate"] {
 .prose p {
   margin-bottom: 10px; }
 
+#page {
+  clear: both; }
+
 #page .pane-content-area.boxed {
   overflow: hidden; }
 
@@ -4092,9 +4095,6 @@ td:not([class]) {
 .pane-press-releases2-panel-pane-5 .views-field-published-at,
 .pane-panopoly-faq-panel-pane-6 .views-field-published-at {
   font-size: 0.8em; }
-
-#page .pane-content-area.boxed {
-  overflow: hidden; }
 
 #page .pane-content-area .field-name-field-featured-image img {
   float: left;

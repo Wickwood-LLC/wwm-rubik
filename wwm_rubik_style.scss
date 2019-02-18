@@ -1519,6 +1519,10 @@ label[for="edit-pubdate"] {
 
 .prose p { margin-bottom: 10px; }
 
+#page {
+  clear: both;
+}
+
 #page .pane-content-area {
   &.boxed {
     overflow: hidden;
@@ -4263,9 +4267,6 @@ td:not([class]) {
 }
 
 #page .pane-content-area {
-  &.boxed {
-    overflow: hidden;
-  }
   .field-name-field-featured-image {
     img {
       float: left;
