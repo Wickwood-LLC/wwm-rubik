@@ -3,7 +3,7 @@ description = A subtheme of Full Rubik for use in WWM Templates.
 base theme = full_rubik
 core = 7.x
 
-stylesheets[all][] = wwm_rubik_style.css
+stylesheets[screen][] = wwm_rubik_style.css
 scripts[] = wwm_rubik.js
 
 regions[header] = Header
